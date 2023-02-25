@@ -4,11 +4,11 @@
 // Install git
 brew install git
 
-// Install maven
-brew install maven
-
 //Install Openjdk
 brew install openjdk@11
+
+// Install maven
+brew install maven
 
 //Install node js
 brew install node
