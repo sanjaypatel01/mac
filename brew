@@ -16,6 +16,22 @@ brew install node
 //Install visual studio code
 brew install visual-studio-code
 
+//Install MongoDB Community server
+// Tap a repository
+brew tap mongodb/brew
+
+brew install mongodb/brew/mongodb-community
+
+// MongoDB Client
+brew install mongodb-compass
+
+// Command to list services running
+brew services list
+
+// Take action in a service
+// brew services restart <ServiceName>
+//Actions restart/start/stop
+
 
 
 
