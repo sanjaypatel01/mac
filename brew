@@ -10,6 +10,11 @@ brew install maven
 //Install Openjdk
 brew install openjdk@11
 
+//Install node js
+brew install node
+
+//Install visual studio code
+brew install visual-studio-code
 
 
 
