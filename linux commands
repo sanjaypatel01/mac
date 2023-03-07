@@ -10,6 +10,45 @@ ls
 ls -a
 ls -al
 
+# To open a folder in explorer/finder/GUI
+open .
+
+
+#mkdir
+Create a new folder
+mkdir <FolderName>
+
+# cd - change directory
+cd <DirectoryPath>
+
+Navigate to the parent directory
+cd ..
+
+
+ps
+
+Profile files
+
+System profile file - globally
+user profile files
+
+root user can change this file (Global profile)
+/etc/profile
+
+User profile files
+.bashrc -- sources /etc/.bashrc.    -- This is executed when new shell is executed e,g. bash
+.bash_profile / .profile / .bash_login (In some linux flavours) - sources .bashrc file
+.bash_logout 
+.bash_history -- Commands executed by the user
+
+// Create new user
+useradd <profileName>
+
+Navigate to new user
+su - <ProfileName>
+
+.bash_profile is executed when user logs in - we can set here path, alias or variables for the current user.
+
 
 
 
