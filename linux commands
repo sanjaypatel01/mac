@@ -1,0 +1,15 @@
+# Find the path of the installed software
+where <NameOfSoftware>
+e.g.
+where git
+where java
+
+# ls - Directory listing
+ls 
+# Lists hidden files as well
+ls -a
+ls -al
+
+
+
+
