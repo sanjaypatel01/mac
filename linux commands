@@ -20,6 +20,10 @@ open .
 #mkdir
 Create a new folder
 mkdir <FolderName>
+mkdir <Existing folerName>/<NewFolderName>
+mkdir -p <Existing FolderName1>/<NewFolderName>/<ExistingFolder2>
+Creates folder in middle, <ExistingFolder2> will also remain there
+
 
 # cd - change directory
 cd <DirectoryPath>
@@ -88,6 +92,10 @@ cat file.txt | tr a-z A-Z > out.txt
  > (Re-direct) operator
  \ -- If you want to write a command in multiple lines
  
+touch <FileName> -- Creates a new file
+
+cp <source File> <New Copy file>
+- New file will have same content as the source file
 
 
 
