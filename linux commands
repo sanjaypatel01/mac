@@ -7,8 +7,11 @@ where java
 # ls - Directory listing
 ls 
 # Lists hidden files as well
-ls -a
-ls -al
+ls -a  -- hidden files also included
+ls -al -- l for log listing
+
+ls -R => lists all direcrory and sub directories with files recursively
+
 
 # To open a folder in explorer/finder/GUI
 open .
@@ -20,6 +23,9 @@ mkdir <FolderName>
 
 # cd - change directory
 cd <DirectoryPath>
+
+Navigate to home folder
+cd ~
 
 Navigate to the parent directory
 cd ..
@@ -51,5 +57,39 @@ su - <ProfileName>
 
 
 pwd - current working directory
+
+
+. - current directory
+.. - parent directory
+
+
+cat - short for concatnate
+lists all the contents in the file
+
+cat <FileName> -- list content
+cat > <FileName> -- creates new file with file name <FileName>
+Here you will option for writting in file. If file exists it will overwrite
+writes a line once you enter. If not entered in last line then will be ignored.
+
+Concatnate contents of two files 
+cat 1.txt 2.txt >final.txt
+
+echo "This is text" > 3.txt
+
+man 
+manual for any command
+$ man echo
+
+tr - translate
+
+cat file.txt | tr a-z A-Z > out.txt
+
+| (Pipe) - Tunneling output of first command will be the input of the next command
+ > (Re-direct) operator
+ \ -- If you want to write a command in multiple lines
+ 
+
+
+
 
 
