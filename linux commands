@@ -38,7 +38,7 @@ root user can change this file (Global profile)
 User profile files
 .bashrc -- sources /etc/.bashrc.    -- This is executed when new shell is executed e,g. bash
 .bash_profile / .profile / .bash_login (In some linux flavours) - sources .bashrc file
-.bash_logout 
+.bash_logout -- executed when user logs out 
 .bash_history -- Commands executed by the user
 
 // Create new user
@@ -50,5 +50,6 @@ su - <ProfileName>
 .bash_profile is executed when user logs in - we can set here path, alias or variables for the current user.
 
 
+pwd - current working directory
 
 
