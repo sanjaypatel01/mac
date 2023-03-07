@@ -97,6 +97,56 @@ touch <FileName> -- Creates a new file
 cp <source File> <New Copy file>
 - New file will have same content as the source file
 
+mv -- Move or rename a file
+mv file.txt <foldername>/<New name>
+
+rm -rf <directory/file>
+removes all the files and directories recursively and forcefully (if file is open or used in some process)
+
+
+su -- super user
+sudo command - run command as super user, needs password
+
+Drive spaces
+df  (shows in KB) - display free disk space
+df -m (Shows in MB)
+
+df -hg (human readable in GB)
+
+du - file or directory space used in current directory
+du -h (Hunman readable)
+
+
+head and tail -- by default displays first or last 10 lines
+head -n 4 <file> --- displays first 4 lines
+
+diff - compares between two files, list which lines not matching
+
+locate <fileName/Directory>
+It will print the file path 
+locate "*.txt"
+
+find
+find <currentDirectory>
+
+find . type -d 
+only directories
+d - directories
+f - files
+
+Find a file
+find . type -f -name "Some.txt"
+find . type -d -name "some*"
+find . type -d -iname "*.txt"
+i - for case insensitive
+
+
+
+
+
+
+
+
 
 
 
