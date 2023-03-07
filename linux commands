@@ -140,6 +140,70 @@ find . type -d -name "some*"
 find . type -d -iname "*.txt"
 i - for case insensitive
 
+find . type -d -mmin +2 mmin -10
+Modified in m minutes
+
+Files which are more than 1KB
+find . type -f -size +1K
+
+find . type -d -size +1000M
+Files which are more than 1000MB, finds also in sub directories
+
+find . -empty
+all files which are empty
+
+find via permissions 
+find . -perm 777
+
+Permissions - chmod - change file mode permission
+User Group and others
+chmod u=rwx,g=rw,o=r file.txt
+using numbers
+chmod 777 file.txt
+which bit is set will be enabled
+
+
+whoami -- prints username
+Change owner
+sudo chown root file.txt
+Then normal user can't access only root user will have access
+
+ls -l => also prints user
+
+Find all text files under directory and delete them
+find . type -d -iname "*.txt" -exec rm -rf {} +
+{} - place folder 
++ - for all the files
+
+find - is used for searching file or directories
+
+grep - global regular expression print - it allows us to search text in files case sensitive way
+grep -V - Grep version
+
+grep <text To Search> <FileName>
+grep -w <TextToSearch> <FileName>
+-w -- for complete word
+-i -- Case insensitive
+-n -- Line no
+-r -- recursive
+-B -- previous number of line where search text found
+
+grep -win rahul names.txt
+
+grep -wirl "text" .
+// Prints all files where text present
+-c -- Count
+
+history | grep "ls"
+
+
+
+
+
+
+
+
+
 
 
 
