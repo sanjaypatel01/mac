@@ -196,6 +196,19 @@ grep -wirl "text" .
 
 history | grep "ls"
 
+history | grep "ls -l"
+
+grep -P <regex> file.txt
+
+grep -p "\w" file.txt
+
+grep -p "\d{3}-\d{3}-\d{4}" file.txt
+
+alias
+
+
+
+
 
 
 
